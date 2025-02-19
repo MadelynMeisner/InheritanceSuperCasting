@@ -1,4 +1,4 @@
-public class Men 
+public abstract class Men 
 {
     public Men() 
     {
@@ -14,6 +14,9 @@ public class Men
     {
         System.out.println("*gasp*");
     }
+    
+    public abstract void eatsHealthy();
+  
 
     public void makesFunnyJokes() 
     {
