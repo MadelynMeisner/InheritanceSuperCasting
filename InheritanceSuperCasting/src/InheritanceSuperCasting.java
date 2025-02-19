@@ -2,18 +2,24 @@ public class InheritanceSuperCasting
 {
     public static void main(String[] args) 
     {
-        Men x = new  Men("poop");
-        x.canBreathe();
-        Men x = new  Men("poop");
-        x.makesFunnyJokes();
-        Men x = new MyBoyfriend("poop");
-        x.canBreathe();
-        Men x = new MyBoyfriend("poop");
-        x.makesFunnyJokes();
-        MyBoyfriend x = new MyBoyfriend("poop");
-        x.canBreathe();
-        MyBoyfriend x = new MyBoyfriend("poop");
-        x.makesFunnyJokes();
+//    	Men a = new Men("Poop");
+//        a.canBreathe(); 
+//        
+//        Men b = new Men();
+//        b.canBreathe();   
+//        b.makesFunnyJokes(); 
+        
+        Men c = new MyBoyfriend("Poop");
+        c.canBreathe(); 
+        c.makesFunnyJokes(); 
+        
+        MyBoyfriend d = new MyBoyfriend();
+        d.makesFunnyJokes(); 
+        
+        MyBoyfriend e = new MyBoyfriend("Poop");
+        e.canBreathe();
+        
+        ((MyBoyfriend) c).isSuperHot(); 
         
      
 

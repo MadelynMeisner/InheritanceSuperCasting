@@ -1,4 +1,5 @@
 public abstract class Men 
+
 {
     public Men() 
     {
@@ -15,8 +16,8 @@ public abstract class Men
         System.out.println("*gasp*");
     }
     
-    public abstract void eatsHealthy();
-  
+    
+    public abstract void isSuperHot();
 
     public void makesFunnyJokes() 
     {

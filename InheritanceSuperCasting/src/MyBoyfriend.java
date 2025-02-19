@@ -2,11 +2,13 @@ public class MyBoyfriend extends Men
 {
     public MyBoyfriend() 
     {
+    	super();
         System.out.println("<3 <3 <3 <3");
     }
 
     public MyBoyfriend(String name) 
     {
+    	super(name);
         System.out.println(name+ " is my boyfriend");
     }
 
