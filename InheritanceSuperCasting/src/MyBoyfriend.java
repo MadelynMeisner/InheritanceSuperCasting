@@ -2,7 +2,7 @@ public class MyBoyfriend extends Men
 {
     public MyBoyfriend() 
     {
-    	super();
+    	
         System.out.println("<3 <3 <3 <3");
     }
 
